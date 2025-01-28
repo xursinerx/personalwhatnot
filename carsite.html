@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CarPhotoApp</title>
+    </head>
+    <body>
+        <main>
+            <h1>CarPhotoApp</h1>
+            <!-- Done with the help of freeCodeCamp -->
+             <section>
+                <h2>Car Photos</h2>
+                <p>Everyone loves cars!</p>
+                <img src="https://www.mercurynews.com/wp-content/uploads/2016/08/20141222_111921_1223googlecar.jpg?w=526" alt="A cute car">
+                <p>This button: <a href="https://www.freecodecamp.org" target="_blank">go to freeCodeCamp.org</a>, click it </p>
+            </section>
+            <section>
+                <h2>Car Lists</h2>
+                <h3>Things cars like:</h3>
+                <ul>
+                    <li>carnip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                    <li>cuddles</li>
+                </ul>
+                <figure>
+                    <img src="https://assets.bonappetit.com/photos/656f48d75b552734225041ba/1:1/w_3129,h_3129,c_limit/20231120-WEB-Lasanga-6422.jpg" alt="A lasagna">
+                    <figcaption>Cars <em>love</em> lasagna</figcaption>
+                </figure>
+                <h3>Top 3 things cars hate:</h3>
+                <ol>
+                    <li>Water</li>
+                    <li>Other cars</li>
+                    <li>Manhandling</li>
+                </ol>
+                <figure>
+                    <img src="https://files.oaiusercontent.com/file-AHDNT7wZYBaX1o63MNh2iA?se=2025-01-28T18%3A09%3A38Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D6379740e-8409-4312-9d98-e0cd56df0eaf.webp&sig=I9k0RJDPq5LUwmdfV/HNlKRtqpE0bTOtN8cvdNowqY8%3D" alt="Five cars in water">
+                    <figcaption>Cars <strong>hate</strong> other cars.</figcaption>  
+                  </figure>
+            </section>
+            <section>
+                <h2>Car Form</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <input required type="text" name="carphotourl" placeholder="car photo URL">
+                    <button type="submit">Submit</button>
+                    <fieldset>
+                        <legend>Is your car an indoor or an outdoor car?</legend>
+                        <label><input checked type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+                        <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cars personality like?</legend>
+                        <input checked type="checkbox" id="loving" name="personality" value="loving"> <label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>This is just a personal for-fun project</footer>
+    </body>
